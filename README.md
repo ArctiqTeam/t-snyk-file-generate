@@ -12,10 +12,10 @@ This Python script fetches data from the Snyk API and generates a `.snyk` file w
 1. Clone the repository or download the `script.py` file.
 
 2. Install the required dependencies using the following command:
-```
+```python
 pip install requests
 
-```python
+```
 
 3. Replace the placeholders in the code:
 - `[org_id]` with your Snyk organization ID
@@ -23,9 +23,9 @@ pip install requests
 - `[token]` with your Snyk API token
 
 4. Run the script:
-```
-python script.py
 ```python
+python script.py
+```
 
 5. The script will make an API request to retrieve the initial text from the Snyk API and generate a `.snyk` file with the relevant information.
 
