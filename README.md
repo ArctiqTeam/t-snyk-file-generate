@@ -9,12 +9,11 @@ This Python script fetches data from the Snyk API and generates a `.snyk` file w
 
 ## Getting Started
 
-1. Clone the repository or download the `script.py` file.
+1. Clone the repository or download the `snyk_file_generate.py` file.
 
 2. Install the required dependencies using the following command:
 ```python
 pip install requests
-
 ```
 
 3. Replace the placeholders in the code:
