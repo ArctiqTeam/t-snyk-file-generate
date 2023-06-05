@@ -1,4 +1,4 @@
-# Generate .snyk File from SNYK UI
+# Generate .snyk File from API Response
 
 This Python script fetches data from the Snyk API and generates a `.snyk` file with specific fields.
 
@@ -13,12 +13,9 @@ This Python script fetches data from the Snyk API and generates a `.snyk` file w
 
 2. Install the required dependencies using the following command:
 ```
-
-
-
 pip install requests
 
-```markdown
+```python
 
 3. Replace the placeholders in the code:
 - `[org_id]` with your Snyk organization ID
@@ -27,22 +24,9 @@ pip install requests
 
 4. Run the script:
 ```
-
-
-
 python script.py
-
 ```python
 
 5. The script will make an API request to retrieve the initial text from the Snyk API and generate a `.snyk` file with the relevant information.
 
 6. Once the script execution is complete, you will see a message indicating the successful generation of the `.snyk` file.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
